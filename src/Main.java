@@ -37,7 +37,7 @@ public class Main {
     public static void displayResult(String playerA, String playerB) {
         if (playerA.equalsIgnoreCase(playerB)) {
             String name = playerA.equalsIgnoreCase("R") ? "Rock" : playerA.equalsIgnoreCase("P") ? "Paper" : "Scissors";
-            System.out.println(name + " vs " + name + ", it's a Tie!");
+            System.out.println(name + ", it's a Tie!");
             return;
         }
 
